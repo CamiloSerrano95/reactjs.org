@@ -47,7 +47,7 @@ class MyComponent extends React.Component {
         (result) => {
           this.setState({
             isLoaded: true,
-            items: result.items
+            items: result
           });
         },
         // Note: it's important to handle errors here
